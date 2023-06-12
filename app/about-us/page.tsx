@@ -10,7 +10,7 @@ const AboutUs = () => {
           <Link
             key={about.title}
             href={about.link}
-            className="flex bg-orange-300 w-4/5 md:w-96 rounded-lg flex-col justify-center items-center text-2xl p-3 text-gray-700 md:hover:text-gray-600"
+            className="flex bg-blue-300 w-4/5 md:w-96 rounded-lg flex-col justify-center items-center text-2xl p-3 text-gray-700 md:hover:text-gray-600"
           >
             {about.img}
             {about.title}
