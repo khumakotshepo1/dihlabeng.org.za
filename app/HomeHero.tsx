@@ -8,12 +8,12 @@ const HomeHero = () => {
       <div className="absolute h-full w-full bg-orange-300 opacity-50"></div>
       <article className="absolute top-3 right-3">
         <div className=" text-white bg-black opacity-60 p-3 font-bold xl:text-xl rounded-2xl flex gap-6">
-          <a href="tel:+27-58-304-1506">
+          <a href="tel:+27-58-303-5732">
             <div className="flex gap-2 justify-center items-center cursor-pointer">
               <span className="border-2 rounded-full border-white p-0.5 xl:p-2 ">
                 <IoIosCall />
               </span>
-              <p className="sm:hidden xl:block">+27 58 303 1123</p>
+              <p className="sm:hidden xl:block"> +27 58 303 5732</p>
             </div>
           </a>
 
