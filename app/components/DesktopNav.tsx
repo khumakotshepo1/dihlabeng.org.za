@@ -7,7 +7,7 @@ const DesktopNav = () => {
       {NavLinksData?.map((links) => (
         <li
           key={links.title}
-          className="uppercase my-2 p-2 lg:text-sm md:text-xs hover:text-gray-400 hover:text-base hover:transition-all"
+          className="uppercase my-2 p-2 lg:text-sm md:text-xs hover:text-gray-400 hover:transition-all"
         >
           <Link href={links.link}>{links.title}</Link>
         </li>

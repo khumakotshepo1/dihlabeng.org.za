@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Councillors = () => {
   return (
-    <article className="flex flex-wrap gap-4 justify-center items-center my-12 px-3 py-6">
+    <article className="flex flex-wrap gap-4 justify-center items-center my-12 px-3 py-6 xl:w-3/4 mx-auto">
       {CouncillorsData.map((councillor) => (
         <figure
           key={councillor.ward}

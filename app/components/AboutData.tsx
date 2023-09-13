@@ -12,10 +12,10 @@ const AboutData = [
     img: <IoIosInformationCircle />,
   },
   { title: "Government", link: "about-us/government", img: <IoIosRibbon /> },
-  { title: "Towns", link: "about-us/towns", img: <IoIosMap /> },
+  { title: "Mission", link: "about-us/mission", img: <IoIosMap /> },
   {
     title: "Who is your councillor",
-    link: "about-us/who-is-my-councillor",
+    link: "about-us/who-is-my-ward-councillor",
     img: <IoIosHelp />,
   },
 ];

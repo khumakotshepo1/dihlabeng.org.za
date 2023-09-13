@@ -6,7 +6,7 @@ import { IoIosCall, IoIosMail } from "react-icons/io";
 
 const ChiefWhip = () => {
   return (
-    <article className="bg-gray-100 w-full h-full flex flex-col justify-center shadow-md py-6 md:p-6 items-center lg:flex-row my-12">
+    <article className="bg-gray-100 w-full xl:w-3/4 mx-auto h-full flex flex-col justify-center shadow-md py-6 md:p-6 items-center lg:flex-row my-12">
       <Image
         src={Mosalla}
         alt="Council Speaker. Nthabeleng Mofokeng"

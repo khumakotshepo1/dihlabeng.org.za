@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutDihlabeng = () => {
   return (
-    <section>
+    <section className="mx-auto xl:w-9/12">
       <h1 className="text-center text-3xl font-bold p-3 uppercase">
         About Dihlabeng
       </h1>
@@ -85,7 +85,7 @@ const AboutDihlabeng = () => {
               <span className="text-xl font-bold py-3 pr-3 text-green-400">
                 Paul Roux
               </span>
-              is situated 35km west of Bethlehem, on the N%. The area is mainly
+              is situated 35km west of Bethlehem, on the N5. The area is mainly
               focused on agricultural significance.
             </p>
           </div>

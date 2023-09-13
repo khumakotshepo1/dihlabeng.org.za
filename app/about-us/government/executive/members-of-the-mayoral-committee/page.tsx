@@ -2,23 +2,26 @@ import MmcData from "@app/components/MmcData";
 
 const Mmc = () => {
   return (
-    <section>
-      <article>
-        <h1 className="text-center text-3xl font-bold p-3 uppercase">
-          Members of the Mayoral Committee
-        </h1>
-        <p className="text-lg font-bold py-3 px-6 my-6 text-gray-600">
-          The members of the Mayoral committee are appointed by the Executive
-          Mayor from among the members of the council. The Executive Deputy
-          Mayor is elected by the Municipal Council and is an ex officio member
-          of the Mayoral committee. The power to dismiss a member of the Mayoral
-          committee also vests in the Executive Mayor. The Mayoral committee
-          consists of the Executive Mayor, and eight (8) members.
-        </p>
+    <section className="lg:w-4/5 xl:w-3/4 mx-auto">
+      <article className="flex flex-col justify-center items-center h-[1100px] p-6 bg-[url('../public/img/townhall.webp')] bg-no-repeat bg-cover relative bg-top">
+        <span className="bg-teal-400 opacity-60 absolute h-full w-full"></span>
+        <div className="text-white z-10 bg-black opacity-80 shadow-lg shadow-black">
+          <h1 className="text-center text-3xl font-bold p-3 uppercase">
+            Members of the Mayoral Committee
+          </h1>
+          <p className="text-lg font-bold py-3 px-6 my-6 text-gray-600">
+            The members of the Mayoral committee are appointed by the Executive
+            Mayor from among the members of the council. The Executive Deputy
+            Mayor is elected by the Municipal Council and is an ex officio
+            member of the Mayoral committee. The power to dismiss a member of
+            the Mayoral committee also vests in the Executive Mayor. The Mayoral
+            committee consists of the Executive Mayor, and eight (8) members.
+          </p>
+        </div>
       </article>
       <article className="flex flex-col gap-4 justify-center items-center py-12 px-6">
         {MmcData.map((mmc) => (
-          <div className="w-full">
+          <div key={mmc.title} className="w-full">
             <h2 className="text-xl font-bold text-gray-600">{mmc.title}</h2>
             <p>{mmc.desc}</p>
           </div>
