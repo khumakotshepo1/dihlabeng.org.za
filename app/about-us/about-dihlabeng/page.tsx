@@ -6,13 +6,15 @@ const AboutDihlabeng = () => {
       <h1 className="text-center text-3xl font-bold p-3 uppercase">
         About Dihlabeng
       </h1>
-      <h2 className="text-lg text-center px-3 py-12 md:w-4/5 text-slate-600 mx-auto lg:text-start">
-        Dihlabeng Local Municipality was established in terms of Section 12 of
-        the Local Government Structures Act, 117 of 1998, after the first
-        general local government elections of 5 December 2000 which heralded the
-        final phase of local government reform as envisaged in 1994 at the onset
-        of the process of democratisation.
-      </h2>
+      <div className="text-white bg-clarens-hero bg-no-repeat w-full bg-cover py-24">
+        <h2 className="text-lg text-center px-3 py-12 md:w-4/5 mx-auto lg:text-start bg-black opacity-70 font-bold">
+          Dihlabeng Local Municipality was established in terms of Section 12 of
+          the Local Government Structures Act, 117 of 1998, after the first
+          general local government elections of 5 December 2000 which heralded
+          the final phase of local government reform as envisaged in 1994 at the
+          onset of the process of democratisation.
+        </h2>
+      </div>
       <article className="px-3 py-6 flex flex-col justify-center md:justify-start items-center">
         <h3 className="text-xl font-bold w-full text-center md:text-left">
           Category & type

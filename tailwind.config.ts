@@ -13,7 +13,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'mayor-hero':'url("../public/img/townhall.webp")',
-          'dlm_hq-hero':'url("../public/img/dihlabeng_hq.webp")'
+          'dlm_hq-hero':'url("../public/img/dihlabeng_hq.webp")',
+          'clarens-hero':'url("../public/img/clarens.webp")'
+
       },
     },
     screens: {
