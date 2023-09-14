@@ -8,13 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'Caveat':['"Caveat"', 'cursive'],
+        'Caveat-brush':['"Caveat Brush"', 'cursive']
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'mayor-hero':'url("../public/img/townhall.webp")',
           'dlm_hq-hero':'url("../public/img/dihlabeng_hq.webp")',
+          'jol-hero':'url("../public/img/jol-hero.webp")',
           'clarens-hero':'url("../public/img/clarens.webp")'
+
 
       },
     },

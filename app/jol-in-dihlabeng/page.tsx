@@ -1,5 +1,15 @@
+import JolHero from "./JolHero";
+import Neighbourhoods from "./Neighbourhoods";
+
 const JolInDihlabeng = () => {
-  return <div>JolInDihlabeng</div>;
+  return (
+    <div>
+      <JolHero />
+      <section>
+        <Neighbourhoods />
+      </section>
+    </div>
+  );
 };
 
 export default JolInDihlabeng;
