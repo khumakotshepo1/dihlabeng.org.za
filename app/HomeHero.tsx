@@ -1,11 +1,9 @@
-import Image from "next/image";
-
 import { IoIosCall, IoIosMail } from "react-icons/io";
 
 const HomeHero = () => {
   return (
     <div className="min-h-[70vh] w-full bg-dlm_hq-hero bg-no-repeat bg-cover flex justify-center items-center relative px-6">
-      <div className="absolute h-full w-full bg-orange-300 opacity-50"></div>
+      {/* <div className="absolute h-full w-full bg-orange-300 opacity-50"></div> */}
       <article className="absolute top-3 right-3">
         <div className=" text-white bg-black opacity-60 p-3 font-bold xl:text-xl rounded-2xl flex gap-6">
           <a href="tel:+27-58-303-5732">

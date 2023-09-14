@@ -3,8 +3,8 @@ import MmcData from "@app/components/MmcData";
 const Mmc = () => {
   return (
     <section className="lg:w-4/5 xl:w-3/4 mx-auto">
-      <article className="flex flex-col justify-center items-center h-[1100px] p-6 bg-[url('../public/img/townhall.webp')] bg-no-repeat bg-cover relative bg-top rounded-full">
-        <span className="bg-teal-400 opacity-20 absolute h-full w-full rounded-full"></span>
+      <article className="flex flex-col justify-center items-center h-[800px] p-6 bg-[url('../public/img/townhall.webp')] bg-no-repeat bg-cover relative bg-top">
+        <span className="bg-teal-400 opacity-20 absolute h-full w-full"></span>
         <div className="text-white z-10 bg-black opacity-80 shadow-lg shadow-black">
           <h1 className="text-center text-3xl font-bold p-3 uppercase">
             Members of the Mayoral Committee

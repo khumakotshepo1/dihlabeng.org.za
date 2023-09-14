@@ -12,7 +12,7 @@ const Mayor = () => {
         alt="Executive Mayor. Tseki Tseki"
         width={700}
         height={1200}
-        className="w-4/5 h-[5=400px] md:h-[500px] xl:h-[600px] md:px-3 md:w-[450px] lg:w-1/2 xl:w-1/3"
+        className="w-4/5 h-[5=400px] md:h-[500px] md:px-3 md:w-[450px] lg:w-1/2 xl:w-1/3"
       />
 
       <div className="w-full h-full p-12">

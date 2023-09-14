@@ -3,7 +3,7 @@ import React from "react";
 
 const Council = () => {
   return (
-    <section>
+    <section className="bg-no-repeat bg-mayor-hero bg-cover py-60">
       <h1 className="text-center capitalize text-3xl font-bold p-3">Council</h1>
       <article className=" flex flex-wrap justify-center items-center gap-4 py-12">
         <Link

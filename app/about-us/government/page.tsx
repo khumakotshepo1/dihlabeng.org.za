@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Government = () => {
   return (
-    <section>
-      <h1 className="text-center capitalize text-3xl font-bold p-3">
+    <section className="bg-no-repeat bg-mayor-hero bg-cover py-60">
+      {/* <h1 className="text-center capitalize text-3xl text-gray-700 font-bold p-3">
         Government
-      </h1>
+      </h1> */}
       <article className="flex flex-col md:flex-row justify-center items-center gap-2 px-2 py-12">
         {GovernmentData?.map((government) => (
           <Link
