@@ -10,7 +10,7 @@ const Stay = () => {
           Where To Stay
         </h1>
       </div>
-      <div className="flex flex-col xl:flex-row justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-flow-row justify-center items-center">
         {StayApi.map((stay) => (
           <Link
             href={stay.link}
