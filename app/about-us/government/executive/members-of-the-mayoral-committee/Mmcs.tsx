@@ -13,7 +13,7 @@ const Mmcs = () => {
         <h1 className="font-bold text-3xl text-center p-6 border-b-teal-400 border-b-8 text-gray-600">
           Council Executive
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-3 p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 p-12">
           {ExecsApi.map((exec: any) => (
             <Link
               href={exec.link}
