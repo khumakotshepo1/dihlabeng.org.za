@@ -1,7 +1,7 @@
 import React from "react";
 
 const Neighbourhoods = () => {
-  return <div>Neighbourhoods here</div>;
+  return <article>Neighbourhoods here</article>;
 };
 
 export default Neighbourhoods;

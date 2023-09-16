@@ -6,7 +6,7 @@ const AboutDihlabeng = () => {
       <h1 className="text-center text-3xl font-bold p-3 uppercase">
         About Dihlabeng
       </h1>
-      <div className="text-white bg-clarens-hero bg-no-repeat w-full bg-cover py-24">
+      <div className="text-white bg-clarens-hero bg-no-repeat w-full bg-cover py-40">
         <h2 className="text-lg text-center px-3 py-12 md:w-4/5 mx-auto lg:text-start bg-black opacity-70 font-bold">
           Dihlabeng Local Municipality was established in terms of Section 12 of
           the Local Government Structures Act, 117 of 1998, after the first

@@ -4,8 +4,8 @@ import Logo from "@public/img/logo-1.webp";
 
 const JolHero = () => {
   return (
-    <div className="px-6 py-40 bg-jol-hero bg-no-repeat bg-cover">
-      <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start p-3">
+    <section className="px-6 py-40 bg-jol-hero bg-no-repeat bg-cover">
+      <article className="flex flex-col xl:flex-row justify-between items-center xl:items-start p-3">
         <div className="z-20 w-40 text-white flex flex-col justify-around items-center gap-3 p-6">
           <h1 className="text-xl p-3 bg-gray-900 w-full text-center">
             Tourism
@@ -30,8 +30,8 @@ const JolHero = () => {
           <div className="xl:w-0.5 xl:h-28 bg-white"></div>
           <Weather />
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 };
 

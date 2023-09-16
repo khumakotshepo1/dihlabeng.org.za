@@ -13,7 +13,7 @@ const AboutUs = () => {
             key={about.title}
             href={about.link}
             target={about.act}
-            className="flex bg-blue-200 lg:h-52 h-40 w-4/5 md:w-96 flex-col justify-center items-center text-2xl p-3 md:hover:text-slate-700 text-white odd:bg-orange-400 even:bg-blue-400 mx-auto shadow-lg odd:shadow-orange-400"
+            className="flex bg-blue-300 lg:h-52 h-40 w-4/5 md:w-96 flex-col justify-center items-center text-2xl p-3 md:hover:text-slate-700 text-white  mx-auto shadow-lg shadow-blue-200"
           >
             {about.img}
             {about.title}

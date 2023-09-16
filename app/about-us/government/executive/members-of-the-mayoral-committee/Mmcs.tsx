@@ -10,7 +10,7 @@ const Mmcs = () => {
   return (
     <section>
       <article className="px-3 p-6">
-        <h1 className="font-bold text-3xl text-center p-6 border-b-teal-400 border-b-4 text-gray-600">
+        <h1 className="font-bold text-3xl text-center p-6 border-b-teal-400 border-b-8 text-gray-600">
           Council Executive
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 p-12">
@@ -35,7 +35,7 @@ const Mmcs = () => {
         </div>
       </article>
       <article className="px-3 p-6">
-        <h1 className="font-bold text-3xl text-center p-6 border-b-teal-400 border-b-4 text-gray-600">
+        <h1 className="font-bold text-3xl text-center p-6 border-b-teal-400 border-b-8 text-gray-600">
           Portfolios Executive
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 p-12">

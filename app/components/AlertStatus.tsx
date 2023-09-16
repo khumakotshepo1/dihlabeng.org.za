@@ -13,7 +13,7 @@ const AlertStatus = ({ shedding, status }) => {
   if (openAlert) {
     myAlert = (
       <div
-        className={`w-full text-center mx-auto px-3 py-4 ${
+        className={`w-full flex justify-center items-center px-3 ${
           status === 0 && "bg-green-600"
         } ${status === 1 && "bg-yellow-400"} ${
           status === 2 && "bg-yellow-400"
@@ -50,7 +50,7 @@ const AlertStatus = ({ shedding, status }) => {
         onClick={() => setOpenAlert(!openAlert)}
       ></span>
       <button
-        className={`tracking-widest pt-2 pb-4 px-3 w-full md:w-44 text-black md:rounded-b-lg flex justify-center items-center ${
+        className={`tracking-widest pt-2 pb-2 px-3 w-full md:w-44 text-white md:rounded-b-lg flex justify-center items-center ${
           status === 0 && "bg-green-600"
         } ${status === 1 && "bg-yellow-400"} ${
           status === 2 && "bg-yellow-400"
