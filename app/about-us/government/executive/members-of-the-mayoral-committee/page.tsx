@@ -1,4 +1,5 @@
 import MmcData from "@app/components/MmcData";
+import Mmcs from "./Mmcs";
 
 const Mmc = () => {
   return (
@@ -19,17 +20,20 @@ const Mmc = () => {
           </p>
         </div>
       </article>
-      <article className="flex flex-col gap-4 justify-center items-center py-12 px-6">
+
+      <Mmcs />
+
+      <article className="flex flex-col gap-4 justify-center items-center py-12 px-6 bg-gray-400 text-white my-4">
         {MmcData.map((mmc) => (
           <div key={mmc.title} className="w-full">
-            <h2 className="text-xl font-bold text-gray-600">{mmc.title}</h2>
+            <h2 className="text-xl font-bold text-teal-600">{mmc.title}</h2>
             <p>{mmc.desc}</p>
           </div>
         ))}
       </article>
-      <article className="flex flex-col gap-2 justify-center items-center p-6">
+      <article className="flex flex-col gap-2 justify-center items-center p-6 bg-gray-400 text-white my-4">
         <div className="w-full">
-          <h2 className="text-xl font-bold text-gray-600">
+          <h2 className="text-xl font-bold text-teal-600">
             POWERS AND FUNCTIONS
           </h2>
           <p className="py-3">
