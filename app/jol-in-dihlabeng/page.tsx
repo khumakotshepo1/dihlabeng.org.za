@@ -1,4 +1,3 @@
-import Eat from "./Eat";
 import Events from "./Events";
 import JolHero from "./JolHero";
 import Neighbourhoods from "./Neighbourhoods";
@@ -9,11 +8,9 @@ const JolInDihlabeng = () => {
     <>
       <JolHero />
 
-      <section className="flex flex-col justify-center items-center">
-        <h1>Explore</h1>
+      <section className="flex flex-col justify-center items-center gap-3 px-2 py-6">
         <Neighbourhoods />
         <Events />
-        <Eat />
         <Stay />
       </section>
     </>
